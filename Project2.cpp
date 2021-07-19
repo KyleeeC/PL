@@ -102,7 +102,7 @@ class Scanner {
   } // IsInt() 
   
   bool IsFloat( string token ) {
-      // DOT已經在之前判斷完 
+      // DOT瞻w繡g礎b瞻禮竄e禮P��_禮繒 
     bool findDot = false, findNum = false ;
     int pos = -1 ;
     for ( int i = 0 ; i < token.length() ; i++ ) {
